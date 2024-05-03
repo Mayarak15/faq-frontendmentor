@@ -1,11 +1,9 @@
 function desc1() {
     let resposta1 = document.getElementById('resp1');
-    resposta1.style.display = 'block';
-
-    let imgDesc = document.getElementById('imgDesc1');
-    imgDesc.addEventListener('click', ()=>{
-        resposta1.style.display = 'none';
-    })
+    if(resposta1 == style.display="none"){
+        resposta1.style.display="block";
+} else{
+              resposta1.style.display="none";  
 }
 function desc2() {
     let resposta2 = document.getElementById('resp2');
